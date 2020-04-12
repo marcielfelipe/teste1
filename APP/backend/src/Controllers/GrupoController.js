@@ -1,5 +1,5 @@
 const Grupo = require('../Models/Grupo');
-
+const teste=0
 module.exports={
     async index(request,response){      
         const {page=1}=request.query; 
